@@ -1,0 +1,121 @@
+TYPE_NAMES = [
+    # Outer
+    "jaket royal hoodie",
+    "basic sweater",
+    "rugby sweater",
+    "jaket bomber",
+    "jaket varsity",
+    "jacket coach",
+    "crewneck",
+    "sweater cardigan",
+    "hoodie polos",
+    "crop hoodie jumper",
+    "hoodie jumper",
+    "hoodie zipper",
+    # Top
+    "kemeja shirt",
+    "polo shirt",
+    "baju kaos",
+    "kaos oversize tshirt",
+    "tshirt",
+    "t shirt",
+    "crop top",
+    # Apparel
+    "sweatpants",
+    "hijab",
+    # hat
+    "bucket hat",
+    "baseball cap",
+    # etc
+    "tote bag",
+    "dompet kartu",
+    "kartu ucapan",
+    "lanyard card holder",
+    "stiker",
+    "sticker",
+    "keychain",
+    "botol",
+]
+
+TYPE_ALIASES = {
+    # Outer
+    "jaket royal hoodie": ["jaket royal hoodie"],
+    "crop zipper": [
+        "crop zipper",
+        "crop hoodie zipper",
+        "crop jaket hoodie zipper",
+        "crop hoodie fashion jaket hoodie zipper",
+    ],
+    "crop jumper": [
+        "crop jumper",
+        "crop hoodie jumper",
+        "crop jaket hoodie jumper",
+    ],
+    "crop bomber": ["crop bomber"],
+    "crop sweater": ["crop sweater", "crop basic sweater"],
+    "halfzip rugby sweater": ["halfzip rugby sweater"],
+    "jaket bomber": ["jaket bomber", "bomber jacket", "bomber jaket", "bomber parasut"],
+    "jaket varsity": ["jaket varsity"],
+    "jacket coach": ["jacket coach"],
+    "crewneck": ["crewneck"],
+    "sweater cardigan": ["sweater cardigan"],
+    "hoodie jumper": [
+        "hoodie jumper",
+        "hoodie pria wanita jumper",
+        "hoodie wanita pria jumper",
+        "jumper distro",
+        "jumper",
+    ],
+    "hoodie zipper": ["hoodie zipper", "hoodie sleting"],
+    "hoodie polos": ["hoodie polos", "hoodie"],
+    "basic sweater": ["basic sweater", "sweater", "sensible choice basic sablon"],
+    "jaket anak": ["jaket anak"],
+    "kaos basic polos vneck cewek": ["kaos basic polos vneck cewek"],
+    # Top
+    "basic hem top wanita": ["basic hem top wanita"],
+    "salur twist turtle neck": ["salur twist turtle neck", "twist turtle neck"],
+    "basic turtle neck": ["basic turtle neck"],
+    "kemeja shirt": ["kemeja shirt", "basic shirt"],
+    "polo shirt": ["polo shirt"],
+    "oversize tshirt": ["oversize tshirt"],
+    "crop top": ["crop top", "crop kaos"],
+    "tshirt": [
+        "tshirt",
+        "baju kaos",
+        "t shirt",
+        "kaos polos",
+        "kaos tulisan lucu",
+        "custom kaos",
+    ],
+    "knit cardigan wanita": ["knit cardigan wanita"],
+    "gamis jersey": ["gamis jersey"],
+    # Apparel
+    "jogger": ["jogger"],
+    "sweatpants": ["sweatpants"],
+    "hijab": ["hijab"],
+    # Hat
+    "bucket hat": ["bucket hat"],
+    "baseball cap": ["baseball cap", "triple lines topi bordir", "topi baseball"],
+    # etc
+    "tote bag": ["tote bag", "totebag"],
+    "dompet kartu": ["dompet kartu"],
+    "kartu ucapan": ["kartu ucapan"],
+    "lanyard card holder": ["lanyard card holder"],
+    "stiker": ["stiker"],
+    "sticker": ["sticker"],
+    "keychain": ["keychain"],
+    "botol": ["botol"],
+    "mystery box": ["mystery box"],
+    "custom bordir": ["custom bordir"],
+    "gift box": ["gift box"],
+}
+
+
+DESIGN_NAMES = [
+    "do what u want",
+    "keep flying",
+    "anxiety",
+    "little bunny",
+    "hate love",
+    "need more space",
+]
